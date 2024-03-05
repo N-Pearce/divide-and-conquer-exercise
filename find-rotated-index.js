@@ -43,22 +43,4 @@ function findPivot(arr){
     return -1
 }
 
-// function findPivot(arr){
-//     let leftIdx = 0
-//     let rightIdx = arr.length - 1
-
-//     while (leftIdx <= rightIdx){
-//         mid = Math.floor((leftIdx + rightIdx) / 2)
-        
-//         if (arr[mid] > arr[mid+1]){
-//             return mid
-//         }
-//         else if (arr[leftIdx] > arr[mid])
-//             leftIdx = mid + 1
-//         else
-//             rightIdx = mid - 1
-//     }
-//     return leftIdx
-// }
-
 module.exports = findRotatedIndex

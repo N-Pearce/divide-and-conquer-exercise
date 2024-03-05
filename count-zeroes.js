@@ -17,7 +17,6 @@ function countZeroes(arr) {
         else
             rightIdx = middleIdx
     }
-    return "Error. This line should not be reached."
 }
 
 module.exports = countZeroes
